@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 20px;
 }
 
 body {
@@ -12,15 +11,12 @@ body {
 /* Style the header */
 
 .header {
-    background-color: yellow;
-    padding: 20px;
+    background-image: url('../img/pexels-photo-1089438.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 20px;
     text-align: center;
-}
-
-.column h2 {
-    color: green;
-    text-align: center;
-    font-size: 30px;
+    color: white
 }
 
 .header p {
@@ -30,11 +26,20 @@ body {
 
 /* Create three equal columns that floats next to each other */
 
-.column {
+.one-column {
     float: left;
     width: 100%;
     padding: 20px 20%;
     /*padding: 0 20% 0 20%;*/
+}
+
+.one-column h1,
+.one-column h2 {
+    text-align: center;
+}
+
+#cadetblue {
+    background-color: cadetblue;
 }
 
 
@@ -56,19 +61,45 @@ body {
 }
 
 
-/*Image Gallery*/
+/*Three columns gallery*/
 
-.gallery {
+.three-column {
     padding: 20px;
     float: left;
     width: 33.33%;
 }
 
-.gallery img {
+.three-column img {
     width: 100%;
 }
 
-.gallery .desc {
-    padding: 15px;
+.three-column .desc {
+    padding: 10px;
     text-align: center;
+}
+
+.two-column {
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+#threecolumn {
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+.four-column {
+    padding: 20px;
+    float: left;
+    width: 25%;
+}
+
+.four-column p {
+    color: white;
+}
+
+#colorpre {
+    background-color: #21252995;
 }
