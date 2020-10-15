@@ -38,8 +38,17 @@ body {
     text-align: center;
 }
 
+.one-column p {
+    color: #868e96;
+    text-align: center;
+}
+
 #cadetblue {
     background-color: cadetblue;
+}
+
+#fondo {
+    background-color: #212529;
 }
 
 
@@ -96,10 +105,10 @@ body {
     width: 25%;
 }
 
-.four-column p {
-    color: white;
-}
-
 #colorpre {
     background-color: #21252995;
+}
+
+#colorpre p {
+    color: white;
 }
