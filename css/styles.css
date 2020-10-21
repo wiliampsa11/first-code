@@ -16,7 +16,8 @@ body {
     background-attachment: fixed;
     padding: 10% 20px;
     text-align: center;
-    color: white
+    color: white;
+    font-size: 40px;
 }
 
 .header p {
@@ -64,7 +65,9 @@ body {
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width:600px) {
-    .column {
+    .two-column,
+    .three-column,
+    .four-column {
         width: 100%;
     }
 }
